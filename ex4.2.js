@@ -10,7 +10,7 @@ const Tribonacci01 = (num) =>{
         for(let i=3;i < num; i++){
             newArr.push(newArr[i-1] + newArr[i-2] + newArr[i-3]);
         }
-        return newArr[num-1];
+        return newArr;
     }
 }
 
@@ -22,7 +22,7 @@ const Tribonacci11 = (num) =>{
         for(let i=3;i < num; i++){
             newArr.push(newArr[i-1] + newArr[i-2] + newArr[i-3]);
         }
-        return newArr[num-1];
+        return newArr;
     } 
 }
 
